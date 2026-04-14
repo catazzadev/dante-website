@@ -48,6 +48,69 @@ button {
   font-family: 'Inter Tight', sans-serif;
 }
 
+/* ===== Language Toggle ===== */
+.lang-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #797b85;
+}
+
+.lang-toggle a {
+  color: #797b85;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.lang-toggle a:hover {
+  color: #fff;
+}
+
+.lang-toggle a.active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.lang-toggle .separator {
+  color: #444;
+}
+
+/* Policy page lang toggle */
+.policy-header .lang-bar {
+  max-width: 900px;
+  margin: 0 auto 8px;
+}
+
+/* Light background version */
+.lang-toggle-light a {
+  color: #94969d;
+}
+
+.lang-toggle-light a:hover {
+  color: #111;
+}
+
+.lang-toggle-light a.active {
+  color: #111;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.lang-toggle-light .separator {
+  color: #ccc;
+}
+
 /* ===== Hero Section ===== */
 .hero {
   display: flex;
