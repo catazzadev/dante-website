@@ -1140,13 +1140,27 @@ button {
   }
 
   .hero-buttons {
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .btn-store {
-    width: 100%;
-    justify-content: center;
+    padding: 12px 18px;
+    gap: 10px;
+  }
+
+  .btn-store .store-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .btn-store .store-name {
+    font-size: 14px;
+  }
+
+  .btn-store .store-label {
+    font-size: 10px;
   }
 
   .testimonial-card {
